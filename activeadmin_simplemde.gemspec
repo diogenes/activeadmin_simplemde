@@ -6,8 +6,8 @@ require 'activeadmin/simplemde_editor/version'
 Gem::Specification.new do |spec|
   spec.name          = 'activeadmin_simplemde'
   spec.version       = ActiveAdmin::SimplemdeEditor::VERSION
-  spec.authors       = ['yevhenii.pylypenko']
-  spec.email         = ['yevhenii.pylypenko@gmail.com']
+  spec.authors       = ['joao.costa']
+  spec.email         = ['jcfjcosta@gmail.com']
 
   spec.summary       = 'SimpleMde editor for ActiveAdmin'
   spec.description   = 'An Active Admin plugin to use SimpleMde Editor'
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'activeadmin', '~> 1.0'
+  spec.add_runtime_dependency 'activeadmin', '~> 2.0'
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
